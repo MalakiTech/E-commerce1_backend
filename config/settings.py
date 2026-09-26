@@ -10,7 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/6.1/ref/settings/
 """
 
+import os
 from pathlib import Path
+from datetime import timedelta
+from dotenv import load_dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,6 +29,12 @@ SECRET_KEY = 'django-insecure-@#7v%odlpkdr3=f7r5zf6$1^0r7*vb0)f6yfdyi6e%+%qe$wh+
 DEBUG = True
 
 ALLOWED_HOSTS = []
+
+
+#same as the above codes
+SECRET_KEY = os.environ.get("SECRET_KEY", "dev-secret-key")
+DEBUG = os.environ.get("DEBUG", "True") == "True"
+ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1").split(",")
 
 
 # Application definition
@@ -65,9 +74,11 @@ TEMPLATES = [
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
+                "django.template.context_processors.debug",
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+
             ],
         },
     },
@@ -130,6 +141,14 @@ STATIC_URL = 'static/'
 MAILERS = {
     'default': {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
+        "OPTIONS":{
+            "host":"smtp.gmail.com",
+            "port":587,
+            "username":os.getenv("EMAIL_HOST_USER"),
+            "password":os.getenv("EMAIL_HOST_PASSWORD"),
+            "use-tls":True,
+        },
+
     },
 },
 
@@ -148,3 +167,30 @@ REST_FRAMEWORK={
 CORS_ALLOWED_ORIGINS=[
     "http://localhost:5173",
 ]
+
+SIMPLE_JWT = {
+    "ACCESS_TOKEN_LIFETIME": timedelta(days=7),
+}
+
+CORS_ALLOWED_ORIGINS = os.environ.get("FRONTEND_ORIGIN", "http://localhost:5173").split(",")
+
+"""
+# --- Email ---
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = os.environ.get("EMAIL_HOST", "")
+EMAIL_PORT = int(os.environ.get("EMAIL_PORT", 465))
+EMAIL_USE_SSL = os.environ.get("EMAIL_USE_SSL", "True") == "True"
+EMAIL_USE_TLS = os.environ.get("EMAIL_USE_TLS", "False") == "True"
+EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER", "")
+EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD", "")
+DEFAULT_FROM_EMAIL = os.environ.get("DEFAULT_FROM_EMAIL", EMAIL_HOST_USER)
+
+"""
+
+# --- M-Pesa Daraja ---
+MPESA_ENV = os.environ.get("MPESA_ENV", "sandbox")
+MPESA_CONSUMER_KEY = os.environ.get("MPESA_CONSUMER_KEY", "")
+MPESA_CONSUMER_SECRET = os.environ.get("MPESA_CONSUMER_SECRET", "")
+MPESA_SHORTCODE = os.environ.get("MPESA_SHORTCODE", "")
+MPESA_PASSKEY = os.environ.get("MPESA_PASSKEY", "")
+MPESA_CALLBACK_URL = os.environ.get("MPESA_CALLBACK_URL", "")

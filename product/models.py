@@ -1,7 +1,8 @@
 from django.db import models
 import datetime
 from django.conf import settings
-
+from django.db import models
+from django.contrib.auth.models import User
 
 
 class Category(models.Model):
@@ -22,7 +23,7 @@ class Products(models.Model):
     price=models.IntegerField(default=0)
     category=models.ForeignKey(Category,on_delete=models.CASCADE)
     description=models.CharField(max_length=250, default='', blank=True, null=True)
-    image=models.ImageField(upload_to='uploads/product')
+    image=models.URLField(max_length=500)
 
     @staticmethod
     def get_products_by_id(ids):
@@ -44,7 +45,7 @@ class Products(models.Model):
 class Order(models.Model):
     product=models.ForeignKey(Products,on_delete=models.CASCADE)
     customer=models.ForeignKey(
-        settings.AUTH_USER_MODEL,on_delete=models.CASCADE, related_name="orders")
+        settings.AUTH_USER_MODEL,on_delete=models.CASCADE, related_name="orders",null=True,blank=True,)
     quantity=models.IntegerField(default=1)
     price=models.IntegerField()
     address=models.CharField(max_length=50,default='',blank=True)
@@ -61,5 +62,28 @@ class Order(models.Model):
 
     class Meta:
         verbose_name_plural="Orders"
+
+
+#This is for mpesa
+class Order(models.Model):
+    STATUS_CHOICES = [
+        ("pending", "Pending"),
+        ("paid", "Paid"),
+        ("failed", "Failed"),
+    ]
+
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="orders")
+    items = models.JSONField()  # [{id, name, price, qty}, ...]
+    amount = models.DecimalField(max_digits=10, decimal_places=2)
+    phone = models.CharField(max_length=20)
+    checkout_request_id = models.CharField(max_length=100, unique=True)
+    merchant_request_id = models.CharField(max_length=100, blank=True)
+    status = models.CharField(max_length=10, choices=STATUS_CHOICES, default="pending")
+    mpesa_receipt = models.CharField(max_length=50, blank=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        return f"Order #{self.id} ({self.status})"
+
 
 # Create your models here.
