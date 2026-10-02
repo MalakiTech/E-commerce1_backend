@@ -114,7 +114,7 @@ class ProductListView(generics.ListCreateAPIView):
     queryset=Products.objects.all()
     serializer_class=ProductSerializer
 
-
+"""
 
 class CartView(APIView):
     permission_classes=[permissions.AllowAny]
@@ -126,10 +126,19 @@ class CartView(APIView):
         product=request.data.get("product")
         remove=request.data.get("remove")
         cart=request.session.get("cart",{})
+        
 
+
+        print("DATA RECEIVED:",request.data)
+        print("SESSION BEFORE:",request.session.get("cart"))
+        print("SESSION AFTER:",cart)
+
+        
         if product:
-            pid=str(product)
-            quantity=cart.get(pid,0)
+            return Response({"cart":cart},status=status.HTTP_200_OK)
+        
+        pid=str(product)
+        quantity=cart.get(pid,0)
         
         if remove:
         
@@ -143,7 +152,44 @@ class CartView(APIView):
           cart[pid]=quantity+1
         
         request.session['cart']=cart
+        request.session.modified=True
+        request.session.save()
         return Response({"cart":cart},status=status.HTTP_200_OK)
+
+"""
+
+
+class CartView(APIView):
+    permission_classes=[permissions.AllowAny]
+       
+
+
+    def get(self,request):
+        cart=request.session.get('cart',{})
+        return Response({"cart":cart})
+
+    def post(self,request):
+        print("DATA RECEIVED:", request.data)
+        product_id=request.data.get('product_id')
+
+        if not product_id:
+            return Response({"error":"no id"},status=400)
+
+        pid=str(product_id)
+        cart=request.session.get('cart',{})
+        
+        cart[pid]=cart.get(pid,0)+1
+
+
+        request.session['cart']=cart
+        request.session.modified=True
+        #request.session.save()
+
+        print("SESSION BEFORE:",request.session.get('cart'))
+        print("SESSION AFTER:",cart)
+        print("SESSION KEY:",request.session.session_key)
+
+        return Response({"cart":cart},status=200)    
 
 
 """
@@ -193,6 +239,7 @@ class Index(View):
         
 
 """
+
 
 
 #This is for Mpesa
@@ -291,6 +338,8 @@ class CallbackView(APIView):
         return Response({"ResultCode": 0, "ResultDesc": "Accepted"})
 
 
+        
+
 #for registration
 def issue_token(user):
     token = RefreshToken.for_user(user)
@@ -318,6 +367,7 @@ class LoginView(APIView):
         serializer.is_valid(raise_exception=True)
         email = serializer.validated_data["email"]
         password = serializer.validated_data["password"]
+        username= serializer.validated_data["usename"]
 
         user = authenticate(request, username=email, password=password)
         if user is None:

@@ -118,7 +118,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 # Internationalization
-# https://docs.djangoproject.com/en/6.1/topics/i18n/
+# https://doc    s.djangoproject.com/en/6.1/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
 
@@ -140,7 +140,7 @@ STATIC_URL = 'static/'
 
 MAILERS = {
     'default': {
-        'BACKEND': 'django.core.mail.backends.console.EmailBackend',
+        'EMAIL_BACKEND': 'django.core.mail.backends.console.EmailBackend',
         "OPTIONS":{
             "host":"smtp.gmail.com",
             "port":587,
@@ -165,14 +165,25 @@ REST_FRAMEWORK={
 
 
 CORS_ALLOWED_ORIGINS=[
+    "http://localhost:5174",
+    "http://127.0.0.1:5173",
     "http://localhost:5173",
+
 ]
+CORS_ALLOW_CREDENTIALS=True
+
+SESSION_SAVE_EVERY_REQUEST=True
+
+SESSION_COOKIE_SAMESITE="Lax"
+
+SESSION_COOKIE_SECURE=False
+
 
 SIMPLE_JWT = {
     "ACCESS_TOKEN_LIFETIME": timedelta(days=7),
 }
 
-CORS_ALLOWED_ORIGINS = os.environ.get("FRONTEND_ORIGIN", "http://localhost:5173").split(",")
+#CORS_ALLOWED_ORIGINS = os.environ.get("FRONTEND_ORIGIN", "http://localhost:5173").split(",")
 
 """
 # --- Email ---
