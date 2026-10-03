@@ -1,0 +1,1218 @@
+[
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$oMEX89CaqJqfQ9RYPCjQed$bJjOA/AdKMLQa4/rFK6WQQXz+e2potsdrN3wIafAwGU=",
+    "last_login": "2026-09-30T19:42:56.057Z",
+    "is_superuser": true,
+    "username": "Malaki",
+    "first_name": "",
+    "last_name": "",
+    "email": "malakiopiyo005@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-09-09T19:02:15.717Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1500000$0zm2KPeg9kuqcHAac6bLA3$8+ixSDW0OU3RRNqdlY27Ku5I8nfiWvUoe9xDO02capM=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Abdalla",
+    "first_name": "Abdalla",
+    "last_name": "Malaki",
+    "email": "malakiopiyo@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-10-02T08:19:07Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "05rhk4u77s2nk6bud7clcziux2v5erjy",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiwS:rSazcc1TJy3MC6LWEM7UaFwcWkmDej9qxYH1LQi2LoY",
+    "expire_date": "2026-10-11T07:04:56.423Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0efysd51lktol6qhf5huay8vyc9ur2mz",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjIiOjF9fQ:1xAthP:YbAOOlYUacqcBLvB-fzGLXfFTdTyhs1t752VHFnRwgM",
+    "expire_date": "2026-10-11T18:34:07.147Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0gk0zb2pf0mr25egiosd6y7qohaoimy0",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiYZ:cM3uBxMQFtf0JX4EU8g0ux3tPK2jky7mGTapcivcgkU",
+    "expire_date": "2026-10-11T06:40:15.137Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0hbq3y8z1yc5tvz6eul0e97hyvb1x7p3",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjQiOjJ9fQ:1xAtaF:pHNEIYkyPKluTbj0fGtrrPpYlb8g5uBWckQQ3iZ1G6g",
+    "expire_date": "2026-10-11T18:26:43.561Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0hodvjwjke9n4w77zcv5h4is7tzaifq7",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiy9:BNotbCRyjNkeEsy75x4_ldSdi1cpz-gzKyDXIiKNqes",
+    "expire_date": "2026-10-11T07:06:41.646Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0z794tqthuocdlliglvwv4bwnrlau5ji",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAXSn:X5avfb2XPkol7LoAK6NzLzagFamrx0DeRu1fHYvgTYI",
+    "expire_date": "2026-10-10T18:49:33.674Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1ajjbzx5qne785e09fuz417apttn4fob",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiWE:g0Yk2iH9y61V50e6dlVHtySgkp6gb3yQouVSA45U6uU",
+    "expire_date": "2026-10-11T06:37:50.826Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1tudz7rgfi4fodyds2ro0hvu4a7hdlru",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiX6:zmI3iVV71LXK77XH8OAmJDUQxh5wh3mb2ix3KVgivAw",
+    "expire_date": "2026-10-11T06:38:44.865Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2sccvh8y017v0nv6e1eyupuqru39sgis",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiRE:mYGpzxNuUhNEawu2G1BtxUcohddYDrSjUEYEJU5vC-4",
+    "expire_date": "2026-10-11T06:32:40.457Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2xdeug2wz3hd7mbg6rvo57b07bnjjk0i",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjQiOjF9fQ:1xAtvn:0hPvKjuHjPCIHNklmm4yU59rvuJiyfI9I5bzuytCcoQ",
+    "expire_date": "2026-10-11T18:48:59.822Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2yb2jfrl317j65iuujh1mry2mfy7eled",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiiQ:CMbHe1XFGF44trzbKt72vhT0OTGrWS-5X8Psa7IfoPw",
+    "expire_date": "2026-10-11T06:50:26.791Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3hc8992vcba9eii9gfxs0fu7tjnlnaiv",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjEiOjF9fQ:1xAtgm:feb-R94xuWzIQqbAD7j2iEasYMF5zuffrUlmkcMvX7U",
+    "expire_date": "2026-10-11T18:33:28.330Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3t3qmbcgixm0y5emieumngehy0z5hzgv",
+  "fields": {
+    "session_data": ".eJxVjLsOwjAMAP_FM4pI4riPkb3fEDl2QgqolfqYEP-OKnWA9e50b4i8bzXua17iqNCDhcsvSyzPPB1CHzzdZyPztC1jMkdiTruaYdb8up3t36DyWqGHBq8dKpesYhWb0GJoBEMoRZxjlzFxckUIg3WWvHhSJeraFEg8eQufL-kCN6M:1xCcKS:zFMZTqtT7HXVZH4yLvuaYE2QAgouQ7-zPFHnl_xtqmY",
+    "expire_date": "2026-10-16T12:25:32.680Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "402jh9d9qzjwap72ou7vvl2x8bufw0yw",
+  "fields": {
+    "session_data": ".eJxVjLsOwjAMAP_FM4pI4riPkb3fEDl2QgqolfqYEP-OKnWA9e50b4i8bzXua17iqNCDhcsvSyzPPB1CHzzdZyPztC1jMkdiTruaYdb8up3t36DyWqGHBq8dKpesYhWb0GJoBEMoRZxjlzFxckUIg3WWvHhSJeraFEg8eQufL-kCN6M:1xC0Dj:gZGQimMf0qLW2icQ2qVzi4je1QNo8SJP_BUJByVyvCI",
+    "expire_date": "2026-10-14T19:44:03.638Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4h027i82w0785kssti6kbk1pq0q8g1zf",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjEiOjF9fQ:1xAtez:W-qcvR7xkZYyWxSB1spxOYMrpDYrL2OoHaw-iGk-p-w",
+    "expire_date": "2026-10-11T18:31:37.171Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4iykrunwx2da6o15cbb9zagmutgxga3b",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiab:xm3yPkcHB1I17EYeaR9Q1aKtSVz84WJnF9shUD4f4CQ",
+    "expire_date": "2026-10-11T06:42:21.227Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4ks1w7psecpp84tc4u8qz7olypaojb5m",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjQiOjJ9fQ:1xAtah:WCaozLAg-ptsdkS8lELcxAHMMg7Nx7140l942khrX-0",
+    "expire_date": "2026-10-11T18:27:11.384Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4madglvxjpv9grqyahbtr98hmsf4ils5",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjMiOjF9fQ:1xAtHj:ZQ_m-KTRZrGb5nCdxOQGxia8b9i6vL_JknGNwNMQoMQ",
+    "expire_date": "2026-10-11T18:07:35.184Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4r6390jge7mu6b5gdpreu4evtoxhc7xi",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjIiOjF9fQ:1xAtvA:M0A1yLzvKng-f3ThFENH4oZ4hNgzOoTFdwVPbGSdx-o",
+    "expire_date": "2026-10-11T18:48:20.968Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "59btesqsx5h6wyyqluvmgh4gd7qm6ned",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiof:RfYwNO_nB4fNydx_peaW1MYl2R98Fdil50qSzhysEFE",
+    "expire_date": "2026-10-11T06:56:53.892Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5gxk6q7o1g7d5tttzavw95lg0rwt9n2r",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjQiOjF9fQ:1xAto4:VkGSd3D3qplUzxvBRfCCr6J4BB17q3Zz8aKsEOS5xe0",
+    "expire_date": "2026-10-11T18:41:00.672Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5h54eq5vcm3ly437nw5rldjwye5j5axj",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiii:F4ylUwepJRLHe8XN8YHvqxggCCHZvprWMVnD7F16ozM",
+    "expire_date": "2026-10-11T06:50:44.890Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6g9qqljvs1a33f70x7a9incknao2xu51",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjEiOjF9fQ:1xAtvH:83U2VKn-5JWwyJYzONEQnBNAfAmTP_Zq2w5MZtJDwEc",
+    "expire_date": "2026-10-11T18:48:27.297Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6ktfghab0eh6468haqr2qum4o95ug38e",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiWk:dQ7tmhVxb2tpL-gIZbB8CpzQ9be60RKzY3s03Xt7GzY",
+    "expire_date": "2026-10-11T06:38:22.454Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6sax5uoflr0bg9lq0h2zrw4d1p1jo973",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjEiOjF9fQ:1xAtnL:ECEXWyobuO15DGMmVyB6jqpI2fvkuqvVNFcpb6k_cbc",
+    "expire_date": "2026-10-11T18:40:15.217Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7jpfysd6yzpy9vdd3ktwbezkozi8ycjs",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAihR:CdjFJ4oKFBWbmRwoORvcIqNU-Nn_PIG_cpCQUXaZjbY",
+    "expire_date": "2026-10-11T06:49:25.147Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7o9860umz3pymw5cxshzr49f4sh9et1t",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAXhv:T57AeQawxeWgsgALDaJ7xqnBZxK7t2peFK7tOEnUzi4",
+    "expire_date": "2026-10-10T19:05:11.797Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7r1nvu0skvifjvhv8iemdaedf6ewpla1",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiYf:9fOhq1UbkFZgEm9fCPEF4HLyAU-GNLJ-sV_KpgC0QYQ",
+    "expire_date": "2026-10-11T06:40:21.988Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7znjng93suy9t1s3zc9c11ujuezpng9h",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAifO:RHYU1xA17aE1ggk6pnzBC_2w77dDX_L4b8lnRi-CWJY",
+    "expire_date": "2026-10-11T06:47:18.439Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8md3orv4vhnqtwfm9gbtjo8et5lbwpt3",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAXKg:q3AollttKU3rtNvT0_hiW3h5kPVzB78coYPBdy93oLE",
+    "expire_date": "2026-10-10T18:41:10.797Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "90osmcf4b5h7rofsarnil8jg073dwl0c",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiov:xMtqNlCYWp2Oo-ZdwNLbtNkfXLpS-QvZGhQb44oJY9k",
+    "expire_date": "2026-10-11T06:57:09.450Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ap9nakmg3w0wgtkgsjkvd4agc7cblhmh",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAic7:MdmxXOJWI_c7Ye9SjHuWGFwO1ZLXb8zSb45YR_dojXM",
+    "expire_date": "2026-10-11T06:43:55.758Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "d8c76c4ip4lw0iti7epo6oc8i8zig4b5",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjMiOjF9fQ:1xAtvL:GH5EfgLrFM_xmdvsIuz5-ewp1J9Bc6wGyJxcBaCsCu0",
+    "expire_date": "2026-10-11T18:48:31.068Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "djozm096c69nfqtbm8r5tcd3g7tsirnv",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAip9:q2Y22tvYs9hH_oYvZgAC8pN_TExr1oz2JkOd0XRXA-U",
+    "expire_date": "2026-10-11T06:57:23.803Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dm09j1jzihu2wn8w8r54bex3w5q560n4",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjMiOjF9fQ:1xAtna:hvmUh0L2yWUxer8XyP6RHE9BzWCYJCePk6PQdEiR3sA",
+    "expire_date": "2026-10-11T18:40:30.135Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dntt22s5s8zcgwsmhhd313skqjcrhsmj",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjEiOjF9fQ:1xAtfG:p2hQdB5GotZeALs1cP4ouHwaDFDVmIhszyOcT6kFva0",
+    "expire_date": "2026-10-11T18:31:54.872Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dwypzz9aa929tu96bgno45usszzdbxiw",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjEiOjF9fQ:1xAtRR:V_JNCbxfjESpCgA5dyv0s-u7PeBOQnvWgLlYguBLU10",
+    "expire_date": "2026-10-11T18:17:37.123Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "egxqezgq89rap38h61jidw1culjvdtos",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiaD:DXnczkctf2q6hKKfACAnJVz5qn74HiqW-jr1OpEVZV8",
+    "expire_date": "2026-10-11T06:41:57.926Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "elger26mwvufumog12exvpe64loibwl8",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAXVl:Gz3yabclKQGuoj5mJXwZedFxwcpSfoqtHyzbTiFO2r0",
+    "expire_date": "2026-10-10T18:52:37.694Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "eo8xqn0ppwbfyx9zxx7cou3o4pz828rt",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAXec:3GgovuSi1nwPEcw4wgM2otMwuAKKilMT6oz04AUrqog",
+    "expire_date": "2026-10-10T19:01:46.632Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fce3919g7am5ca6r7ds2379t5prclam7",
+  "fields": {
+    "session_data": "e30:1xCjmy:8xSiR1WqrwPcaLRB1Mq_kEMTzBHiYi0n1as8uGAscCk",
+    "expire_date": "2026-10-16T20:23:28.885Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fhfyi01mon5z1u5bqgdyiqfqzuckvcxs",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjMiOjF9fQ:1xAt51:uGv5rT4lnzsO-qrzDZZQCFGnOFNbQfXOgobFO4OEI3U",
+    "expire_date": "2026-10-11T17:54:27.119Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gab85sqmzi6q0az60rdizxiycocql4w7",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiMw:H9tn4FMVmQmvToGf7XK9kQqnYwiQbUh6R354hsZwD2k",
+    "expire_date": "2026-10-11T06:28:14.098Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hn1hvpru2ye7abkhs4i6dammld9qwmum",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjMiOjJ9fQ:1xAtYs:U7yzsnu_8DAVVE4vrhnSN8GM_Q01dV9arH-8GC9JuzY",
+    "expire_date": "2026-10-11T18:25:18.292Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hrhea6kjon47f1lkrjl3h7p2t0sc3bsl",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjEiOjF9fQ:1xAtn5:OsKMTNo16GgDCZ55Tkj7221jv1kG0B3WVNqjg5TXpqk",
+    "expire_date": "2026-10-11T18:39:59.501Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hrvehs9e4y6s2b06okhrwp5gtv8t5vr5",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiiz:ljfDUK_tnQnuLAJtPOuJj3MlCZMxXjk5AkmmOq5xkbU",
+    "expire_date": "2026-10-11T06:51:01.073Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "i2o11laepbmfi6crmxzf9a01p7y6vu0o",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjEiOjYsIjIiOjExLCI0Ijo0LCIzIjo1fX0:1xCcOR:o3dY_KYwVKlC3b1JwOreVZq7sjhM6QnZvM0_yjwzQUg",
+    "expire_date": "2026-10-16T12:29:39.420Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "i7ibhvfddad6luxb801548wiv26fm54q",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAY7G:8SEq4lfaommXk75brIWyVcWE4K71O2h8-J4wY_SHd74",
+    "expire_date": "2026-10-10T19:31:22.162Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ibdu05rbel9vh8ss55aj3zko7zbmjkki",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjQiOjF9fQ:1xAtTD:pQp42QkdvucAxurzJnAFyLTznIJi1YbbITmQgZlBSEY",
+    "expire_date": "2026-10-11T18:19:27.334Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "imwl5gj7szoral9nk5x2nmymhdgwotou",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjQiOjF9fQ:1xAuTC:lZoroneIDHcOEPAYRE7yCpSffR0l67M8KOV_QMwIKoc",
+    "expire_date": "2026-10-11T19:23:30.726Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "iqh3viutnmvbs8xzmks9890m6aso7ywh",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAXKX:DgZLihiYn2hX77CXMht9NvWyVdKlnNM3sWrovjNU47U",
+    "expire_date": "2026-10-10T18:41:01.352Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "is5qk4p4q56dk2mnkwiuonl0vh4z317b",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjIiOjF9fQ:1xAtn5:7SKxbFe0iVX-ryZTQ_-B30tBAdf4sfKFR6hvveeRh34",
+    "expire_date": "2026-10-11T18:39:59.520Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "izbxx4y5rvloamsa6w3jhgjk3oem3a2y",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiwm:p4QDfqm6eeno6cBDi0j4S2DlD0Z4qe4zYf5Tvb4R07s",
+    "expire_date": "2026-10-11T07:05:16.901Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jarshg0qg9m6b685qwr15uqpqs0sur5m",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAXLV:fgHeJQQaBrH-2oYK3IXUgVEBkVFdhTQDGn9NqUmLP88",
+    "expire_date": "2026-10-10T18:42:01.279Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jviq8kqqcos5p54z3nwhxduefw7pigj5",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAXdz:fnZAxzpiTXrqr-VGr8ln1z61NZKPn4XaNt-6wUeMAFE",
+    "expire_date": "2026-10-10T19:01:07.767Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "k6r48m5csbhqjz27peiql0ionafutwkd",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjQiOjF9fQ:1xAtRX:vflbHkliL4XDIt0k6_IiB4oLSV9rLTd8wcbgJaKa0bM",
+    "expire_date": "2026-10-11T18:17:43.740Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ksx4yufzj71kp7y1urfc9h1gi2bea5i4",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjIiOjJ9fQ:1xAtax:lGD4RBzr0JPWrAQGjbvgq_ITzm6QQ4kwFijGO0JI7Rs",
+    "expire_date": "2026-10-11T18:27:27.597Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "l4mufj9lrrraf8vshig9htiyibdr4tii",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAifJ:7iwDmNtK6SUCEGk6Fnvl0LqYK1Vx9qydpF3Db6dWpz8",
+    "expire_date": "2026-10-11T06:47:13.568Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "l50da7bvillv8zqixnpgiuecalo3hdca",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjIiOjF9fQ:1xAtva:cfgflIzWk3l2cQnYVD4Q4tBU0dWfRASUSBhzvkeZWmI",
+    "expire_date": "2026-10-11T18:48:46.371Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lh2004yhgz7icv3j5p3ebkkrr2wdwnxh",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAXLG:lLVaL5tcwrMxAJFkUC-HF2sD6sY-FicN579rRq62PNU",
+    "expire_date": "2026-10-10T18:41:46.224Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "li6d69zxlv1u1da00o4rw4o5k991jzpk",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjEiOjF9fQ:1xAtn5:OsKMTNo16GgDCZ55Tkj7221jv1kG0B3WVNqjg5TXpqk",
+    "expire_date": "2026-10-11T18:39:59.503Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lk5k8fmb5ddbdy5b8j117wpji73pkjdg",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjMiOjJ9fQ:1xAtap:zjBw6KwmhBmsL5cTfcNMFPrZgWHWjhdD4SuDiTuIA5E",
+    "expire_date": "2026-10-11T18:27:19.065Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mcrpuogta55ghhjazm7307cf062io0nv",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiXP:WbY_9X85hgYLvR2af0ihIelTkLcKht5rXdCMmrtv9c4",
+    "expire_date": "2026-10-11T06:39:03.351Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mhp55xiv1y7fdayqkxdnn9fg995l2af8",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiVz:aKMgnFDBNoC7H8Rn6iaG82-cMIw5AQD54a5wjXsbdqA",
+    "expire_date": "2026-10-11T06:37:35.942Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "mjgex7rmwvto4uhozym3xguiw376emnh",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjQiOjJ9fQ:1xAtYo:6y7kk_tg81U-_B2P5zGWEQ5_k9Cs_0b8VhGcHnHNRuA",
+    "expire_date": "2026-10-11T18:25:14.611Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "q7sm8sg81cvcqv397vbfjg0r68ukvqq7",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjMiOjF9fQ:1xAtvy:QTZImBoME7tIpY-_ZF9-sX4d8SF5eqqYNFdxu34g3jw",
+    "expire_date": "2026-10-11T18:49:10.221Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rbc7lrhcxou759vtubhzfzxwuadfmeoi",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjQiOjJ9fQ:1xAtXp:RYsL_pwTNqIlrBxNn83BXLehjf8RDREXusWo2jYIyyc",
+    "expire_date": "2026-10-11T18:24:13.449Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rcyfe88gzavgxonruy7rj4ww2nu7gz0y",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAXi9:RA1bPRBeGMIEiRWwJuKtpu3Ifac5qBgkavziP1YHpts",
+    "expire_date": "2026-10-10T19:05:25.265Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sel5ix01cqkn2ptkt7w335m5dsnzdzc5",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjIiOjF9fQ:1xBc7U:h2KD5xVr8rfEa--fWLuikgiEGzdF2I2xXBYygdNUYFM",
+    "expire_date": "2026-10-13T18:00:00.305Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sruoy9kb0eg8ug8m5eodbu5egddrtzf4",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAXWx:IoHd8C-wZZBcIjvDmpH2NgWMjazKl4EWIMPmNm2Ccrg",
+    "expire_date": "2026-10-10T18:53:51.814Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "t167jjf63fheqhbfvym8fllris77ywz9",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjMiOjJ9fQ:1xAtYP:mVgfQ9K7YLRPO5_2R5rtN-Y4hwjjQIuY4tgkTeiYTYk",
+    "expire_date": "2026-10-11T18:24:49.270Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tb6gy9q0iqwdgj960jjthjocbu6ehn22",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjQiOjJ9fQ:1xAtYK:i7ksgtaUAOrZsgA6l9JArgMLbCFWaIx0V4vgflwFP7Q",
+    "expire_date": "2026-10-11T18:24:44.990Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "u0myvd83vqt52nl89qcnngixntmg71om",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjQiOjF9fQ:1xBc7N:HXYmMMHGOyU0qqd4Dm-12hIhxkfLVIrbmjupDC0YhC8",
+    "expire_date": "2026-10-13T17:59:53.045Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "umdve8li8vs3s85811fq8dmjgefg6gzw",
+  "fields": {
+    "session_data": ".eJxVjLsOwjAMAP_FM4qc9CGnIzvfUNmOQwoolfqYEP-OKnWA9e50bxh538q4r7aMU4IBPFx-mbA-rR4iPbjeZ6dz3ZZJ3JG4067uNid7Xc_2b1B4LTAAeh_aSA1GYc-BYm5EA5JFU7Uem1YlBzbqOqY2dkGQctKeEBGFMny-zb83lA:1x4NaA:HuYH7AkSDMcI3urqTsruhM1IqbWFFQf_SpHPL-q9oqU",
+    "expire_date": "2026-09-23T19:03:42.486Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "uqvg0xin8i8cymaqmrp7e0v584rpo9v9",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAijC:fJWKBr5_kk8cEKkzh4hwbKmCQYHT0U5_NYrUO9sOYmo",
+    "expire_date": "2026-10-11T06:51:14.982Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "uw6tva4wli513xf2dhkm8um9vzst4fp2",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAirU:XMMLilr-2UlOPrJMLGp1mZzV5pqoBxDM2vesJXCDlfM",
+    "expire_date": "2026-10-11T06:59:48.005Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "v8142har9h3z6xzofcdp7h4ntz6812n9",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjIiOjF9fQ:1xAteu:T2oRaDxhpfpQg2noMZUbh8V2Y-1Tw3KzPmsALcUOJKE",
+    "expire_date": "2026-10-11T18:31:32.905Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "v8npa1desx83q46rgnwzy2iqaqhkx46e",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAisR:ek9zR1FDu9lRowpgICMwdmBWaOdzTSz_vVy2dCPsoRY",
+    "expire_date": "2026-10-11T07:00:47.002Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vcl7t1tvai0pd7qef43rb0ppwsxa6tm0",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAXmI:GLL-_z-6UACYJRuF-kd31H7Qzat3r5KmqE_8G6IY0q0",
+    "expire_date": "2026-10-10T19:09:42.289Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vdenv9dfyliawbhupsm1ijnlqqwzgasv",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAXeY:OATHKdKID1prOLeCirgUUW0vANJpqJi3g4IJ-VEvqdo",
+    "expire_date": "2026-10-10T19:01:42.452Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vdrjh4q92ketxagbtn0pkelryp5rmwkk",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAisd:uej3atNiLQi3TSOKR39rMFu8EVv53wV4cnDAbdXJftY",
+    "expire_date": "2026-10-11T07:00:59.816Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wetr0nar3cvgnjlaas6u5cshf0bsihxz",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjIiOjF9fQ:1xAtgt:4_jQisgnVA88GQqDYZDoHLgRZlaewHLNCCavMPd4jn0",
+    "expire_date": "2026-10-11T18:33:35.052Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wg2i7woj4qkrkywsgetwecwrgyqy4s2h",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjMiOjF9fQ:1xAtQZ:dS7SKjLGsuE7LTdqy3DW1RWN8AuzRCyZ9qwIoPMz9lk",
+    "expire_date": "2026-10-11T18:16:43.401Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wjflpn7bupvmx23tp139amweru7fxvg5",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjMiOjF9fQ:1xBc7F:MJOAixwgLQ4n0KSaN36PzbAyQHX1oF6zdI1HMO7Ry0o",
+    "expire_date": "2026-10-13T17:59:45.850Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wyv51hp8gqf60p5k5euw3kchybw8rtup",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjMiOjJ9fQ:1xAtXl:HUJ2kMc-Evq7fJ4Rqezd9ycEhjuoGMLQ4EDmjLAtsCY",
+    "expire_date": "2026-10-11T18:24:09.405Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "x43m2cwufpnqzr6nfzldeo5yi07yksyg",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAiwf:XksyPTxtfjC4pP4GDSbKP41XbN7wljL-kmBLs-EEThg",
+    "expire_date": "2026-10-11T07:05:09.067Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xh6or9ekv8hi4c0vscfh1tjwzfl5ikv6",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAXVT:BuD73cP__2BwabUmw9jjsM70dE0Nu1uSetiLT4PqZKc",
+    "expire_date": "2026-10-10T18:52:19.511Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xi0or2oy242t6hincqnxcx8m0h9payzo",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjMiOjF9fQ:1xAtPz:iYC9o3No86xQSlQ1itypOzmWBeGvDmP2kfeNwLQ6hq8",
+    "expire_date": "2026-10-11T18:16:07.679Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xlzjxyx10s07sg23e1c0jo2g20tnzkba",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAY6p:PaN51pm7TmJPvct-7PyFdU1U6xfKUWmxo8gacB4LQI0",
+    "expire_date": "2026-10-10T19:30:55.571Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xx6g12ljshmq74unogncgjuvf965ehr6",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7IjQiOjF9fQ:1xAtnT:8ClSCRCiCZvK6fR0tpIOu-9Q4ONKP4h0KXKiRXmQz48",
+    "expire_date": "2026-10-11T18:40:23.865Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zehtqqdnnfegyec5nxoecxcgffxw3wqf",
+  "fields": {
+    "session_data": "eyJjYXJ0Ijp7Ik5vbmUiOjF9fQ:1xAXml:AjOdDBwlLA48olswbkzNxSBqujF3Do6hHKUR1PXtYjg",
+    "expire_date": "2026-10-10T19:10:11.273Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "a9acf6c496dcae2764e929424438aeabdd373b5a",
+  "fields": {
+    "user": [
+      "Malaki"
+    ],
+    "created": "2026-09-15T15:28:36.435Z"
+  }
+},
+{
+  "model": "product.category",
+  "pk": 1,
+  "fields": {
+    "name": "Men"
+  }
+},
+{
+  "model": "product.category",
+  "pk": 2,
+  "fields": {
+    "name": "Women"
+  }
+},
+{
+  "model": "product.category",
+  "pk": 3,
+  "fields": {
+    "name": "Sweater"
+  }
+},
+{
+  "model": "product.products",
+  "pk": 1,
+  "fields": {
+    "name": "Men Shirts",
+    "price": 500,
+    "category": 1,
+    "description": "light blue",
+    "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=200&h=260&fit=crop"
+  }
+},
+{
+  "model": "product.products",
+  "pk": 2,
+  "fields": {
+    "name": "Peplum Top",
+    "price": 25,
+    "category": 2,
+    "description": "get with a lower price",
+    "image": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=200&h=260&fit=crop"
+  }
+},
+{
+  "model": "product.products",
+  "pk": 3,
+  "fields": {
+    "name": "striped shirt",
+    "price": 28,
+    "category": 1,
+    "description": "Red striped",
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=200&h=260&fit=crop"
+  }
+},
+{
+  "model": "product.products",
+  "pk": 4,
+  "fields": {
+    "name": "Cape Poncho",
+    "price": 42,
+    "category": 2,
+    "description": "Beige",
+    "image": "https://images.unsplash.com/photo-1520006403909-838d6b92c22e?w=200&h=260&fit=crop"
+  }
+},
+{
+  "model": "product.products",
+  "pk": 5,
+  "fields": {
+    "name": "Blouse",
+    "price": 30,
+    "category": 2,
+    "description": "Black Print",
+    "image": "https://images.unsplash.com/photo-1485462537746-965f33f7f6a7?w=200&h=260&fit=crop"
+  }
+},
+{
+  "model": "product.products",
+  "pk": 6,
+  "fields": {
+    "name": "Blouse",
+    "price": 27,
+    "category": 2,
+    "description": "Chambray",
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=200&h=260&fit=crop"
+  }
+},
+{
+  "model": "product.products",
+  "pk": 7,
+  "fields": {
+    "name": "Sweater",
+    "price": 38,
+    "category": 3,
+    "description": "Loungewear",
+    "image": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=200&h=260&fit=crop"
+  }
+},
+{
+  "model": "product.products",
+  "pk": 8,
+  "fields": {
+    "name": "Blouse",
+    "price": 33,
+    "category": 2,
+    "description": "Olive Green",
+    "image": "https://images.unsplash.com/photo-1551803091-e20673f15770?w=200&h=260&fit=crop"
+  }
+},
+{
+  "model": "product.products",
+  "pk": 9,
+  "fields": {
+    "name": "Top",
+    "price": 26,
+    "category": 2,
+    "description": "Classic Black",
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=200&h=260&fit=crop"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-09-15T18:10:09.916Z",
+    "user": [
+      "Malaki"
+    ],
+    "content_type": [
+      "product",
+      "category"
+    ],
+    "object_id": "1",
+    "object_repr": "Men shirts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-09-15T18:11:58.285Z",
+    "user": [
+      "Malaki"
+    ],
+    "content_type": [
+      "product",
+      "products"
+    ],
+    "object_id": "1",
+    "object_repr": "Products object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-09-15T18:12:24.131Z",
+    "user": [
+      "Malaki"
+    ],
+    "content_type": [
+      "product",
+      "products"
+    ],
+    "object_id": "1",
+    "object_repr": "Products object (1)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-09-15T18:13:56.957Z",
+    "user": [
+      "Malaki"
+    ],
+    "content_type": [
+      "product",
+      "category"
+    ],
+    "object_id": "2",
+    "object_repr": "Women",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-09-15T18:16:38.134Z",
+    "user": [
+      "Malaki"
+    ],
+    "content_type": [
+      "product",
+      "products"
+    ],
+    "object_id": "2",
+    "object_repr": "Products object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-09-15T18:18:29.800Z",
+    "user": [
+      "Malaki"
+    ],
+    "content_type": [
+      "product",
+      "products"
+    ],
+    "object_id": "3",
+    "object_repr": "Products object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-09-15T18:21:07.313Z",
+    "user": [
+      "Malaki"
+    ],
+    "content_type": [
+      "product",
+      "products"
+    ],
+    "object_id": "4",
+    "object_repr": "Products object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-09-15T18:22:32.163Z",
+    "user": [
+      "Malaki"
+    ],
+    "content_type": [
+      "product",
+      "products"
+    ],
+    "object_id": "5",
+    "object_repr": "Products object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-09-15T18:23:58.448Z",
+    "user": [
+      "Malaki"
+    ],
+    "content_type": [
+      "product",
+      "products"
+    ],
+    "object_id": "6",
+    "object_repr": "Products object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-09-15T18:27:51.717Z",
+    "user": [
+      "Malaki"
+    ],
+    "content_type": [
+      "product",
+      "category"
+    ],
+    "object_id": "3",
+    "object_repr": "Sweater",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-09-15T18:28:30.844Z",
+    "user": [
+      "Malaki"
+    ],
+    "content_type": [
+      "product",
+      "products"
+    ],
+    "object_id": "7",
+    "object_repr": "Products object (7)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-09-15T18:29:49.275Z",
+    "user": [
+      "Malaki"
+    ],
+    "content_type": [
+      "product",
+      "products"
+    ],
+    "object_id": "8",
+    "object_repr": "Products object (8)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-09-15T18:31:07.732Z",
+    "user": [
+      "Malaki"
+    ],
+    "content_type": [
+      "product",
+      "products"
+    ],
+    "object_id": "9",
+    "object_repr": "Products object (9)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-09-29T18:30:22.519Z",
+    "user": [
+      "Malaki"
+    ],
+    "content_type": [
+      "product",
+      "category"
+    ],
+    "object_id": "1",
+    "object_repr": "Men",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-10-02T08:19:07.231Z",
+    "user": [
+      "Malaki"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "2",
+    "object_repr": "Abdalla",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-10-02T08:20:15.815Z",
+    "user": [
+      "Malaki"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "2",
+    "object_repr": "Abdalla",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-10-02T08:22:15.151Z",
+    "user": [
+      "Malaki"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "2",
+    "object_repr": "Abdalla",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-10-02T08:23:52.267Z",
+    "user": [
+      "Malaki"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "2",
+    "object_repr": "Abdalla",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+  }
+}
+]
